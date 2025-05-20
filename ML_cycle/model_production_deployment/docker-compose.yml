@@ -1,0 +1,25 @@
+
+
+services:
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fastapi
+    ports:
+      - "8000:8000"
+    environment:
+      - WANDB_API_KEY=da37b14ce73e93a3b20284def1a1b537024ed542
+      - WANDB_PROJECT=Energy-Consumption-Pred-101
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: streamlit
+    ports:
+      - "8501:8501"
+    depends_on:
+      - fastapi
+    volumes:
+      - ./.streamlit:/app/.streamlit

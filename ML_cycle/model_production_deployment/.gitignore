@@ -1,0 +1,5 @@
+artifacts
+mlruns
+wandb
+.streamlit
+.env

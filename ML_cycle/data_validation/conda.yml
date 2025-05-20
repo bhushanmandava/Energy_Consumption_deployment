@@ -1,0 +1,11 @@
+name: data_validation_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - mlflow
+  - pip
+  - pip:
+      - great-expectations
+      - wandb

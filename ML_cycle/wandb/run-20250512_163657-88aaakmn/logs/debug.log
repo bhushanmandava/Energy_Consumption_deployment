@@ -1,0 +1,7 @@
+2025-05-12 16:36:57,550 INFO    MainThread:14819 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/ML_cycle/wandb/run-20250512_163657-88aaakmn/logs/debug.log
+2025-05-12 16:36:57,550 INFO    MainThread:14819 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/ML_cycle/wandb/run-20250512_163657-88aaakmn/logs/debug-internal.log
+2025-05-12 16:36:57,550 INFO    MainThread:14819 [wandb_init.py:init():852] calling init triggers
+2025-05-12 16:36:57,550 INFO    MainThread:14819 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-12 16:36:57,550 INFO    MainThread:14819 [wandb_init.py:init():893] starting backend
+2025-05-12 16:36:57,550 INFO    MainThread:14819 [wandb_init.py:init():897] sending inform_init request

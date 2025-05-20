@@ -1,0 +1,12 @@
+name: data_cleaning_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - scikit-learn
+  - mlflow
+  - pip
+  - pip:
+      - wandb

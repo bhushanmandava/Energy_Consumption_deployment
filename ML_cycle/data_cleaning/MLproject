@@ -1,0 +1,7 @@
+name: DataCleaningComponent
+
+conda_env: conda.yml
+
+entry_points:
+  main:
+    command: "python data_cleaning.py"

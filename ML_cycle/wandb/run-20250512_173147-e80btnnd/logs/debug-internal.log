@@ -1,0 +1,54 @@
+{"time":"2025-05-12T17:31:48.368927-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/ML_cycle/wandb/run-20250512_173147-e80btnnd/logs/debug-core.log"}
+{"time":"2025-05-12T17:31:48.616507-04:00","level":"INFO","msg":"created new stream","id":"e80btnnd"}
+{"time":"2025-05-12T17:31:48.61654-04:00","level":"INFO","msg":"stream: started","id":"e80btnnd"}
+{"time":"2025-05-12T17:31:48.616547-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"e80btnnd"}
+{"time":"2025-05-12T17:31:48.61656-04:00","level":"INFO","msg":"sender: started","stream_id":"e80btnnd"}
+{"time":"2025-05-12T17:31:48.616595-04:00","level":"INFO","msg":"handler: started","stream_id":"e80btnnd"}
+{"time":"2025-05-12T17:31:48.856786-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-12T17:31:48.935896-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:48.94189-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:48.945743-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:48.946324-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:48.950081-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:49.145809-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:49.149447-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:49.319836-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:49.323565-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:49.327641-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:49.331093-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:49.513849-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:49.517278-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:49.52002-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:49.523487-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:49.786617-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:49.791136-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:49.821096-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:49.826586-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:49.882275-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:49.886206-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:49.946396-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:49.950158-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:50.30222-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:50.313476-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:50.717575-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:50.721667-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:50.789362-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:50.793688-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:50.99141-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:50.995862-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:51.000695-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:51.007709-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:51.604033-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:51.608031-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:51.69858-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:51.79672-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:51.800404-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:51.818675-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:51.821836-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:51.835667-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:51.839615-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:51.855561-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:51.858735-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:31:51.870174-04:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:31:51.873413-04:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:38:34.482697-04:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bhushanmandava16-personal/Energy-Consumption-Pred-101/e80btnnd/file_stream\": read tcp 10.0.0.251:52536->35.186.228.49:443: read: connection reset by peer"}

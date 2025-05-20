@@ -1,0 +1,12 @@
+name: model_evaluation_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - scikit-learn
+  - xgboost
+  - mlflow
+  - pip
+  - pip:
+      - wandb

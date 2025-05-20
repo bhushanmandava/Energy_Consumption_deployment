@@ -1,0 +1,43 @@
+{
+  "os": "macOS-15.4.1-arm64-arm-64bit",
+  "python": "CPython 3.10.12",
+  "startedAt": "2025-05-12T20:08:39.399671Z",
+  "program": "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/ML_cycle/EDA.ipynb",
+  "codePath": "ML_cycle/EDA.ipynb",
+  "git": {
+    "remote": "https://github.com/bhushanmandava/Energy_Consumption_deployment.git",
+    "commit": "369c750b03c2c490f035a2d219c88b9aca9fadcd"
+  },
+  "email": "bhushanmandava16@gmail.com",
+  "root": "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/ML_cycle",
+  "host": "bhushans-Mac-mini.local",
+  "executable": "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/bin/python",
+  "codePathLocal": "EDA.ipynb",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "133413486592"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "133413486592"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "cpu": {
+    "count": 10,
+    "countLogical": 10
+  },
+  "apple": {
+    "name": "Apple M4",
+    "ecpuCores": 6,
+    "pcpuCores": 4,
+    "gpuCores": 10,
+    "memoryGb": 16,
+    "ramTotalBytes": "17179869184"
+  }
+}

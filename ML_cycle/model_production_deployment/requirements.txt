@@ -1,0 +1,12 @@
+fastapi
+pydantic
+prophet
+fastapi
+uvicorn
+pandas
+numpy
+joblib
+wandb
+python-dotenv
+scikit-learn
+streamlit

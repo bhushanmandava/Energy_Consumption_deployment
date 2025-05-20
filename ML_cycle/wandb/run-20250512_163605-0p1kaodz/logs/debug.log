@@ -1,0 +1,111 @@
+2025-05-12 16:36:05,127 INFO    MainThread:14819 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/ML_cycle/wandb/run-20250512_163605-0p1kaodz/logs/debug.log
+2025-05-12 16:36:05,127 INFO    MainThread:14819 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/ML_cycle/wandb/run-20250512_163605-0p1kaodz/logs/debug-internal.log
+2025-05-12 16:36:05,128 INFO    MainThread:14819 [wandb_init.py:monkeypatch_ipython():643] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x139681b70>
+2025-05-12 16:36:05,128 INFO    MainThread:14819 [wandb_init.py:init():852] calling init triggers
+2025-05-12 16:36:05,128 INFO    MainThread:14819 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-12 16:36:29,632 WARNING MainThread:14819 [wandb_init.py:init():1681] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1677, in init
+    return wi.init(run_settings, run_config, run_printer)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 873, in init
+    self._wl.finish_all_active_runs()
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 152, in finish_all_active_runs
+    run.finish()
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 503, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 451, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2309, in finish
+    return self._finish(exit_code)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2337, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2550, in _atexit_cleanup
+    self._on_finish()
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2806, in _on_finish
+    wait_with_progress(
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 87, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 30, in run
+    return future.result()
+  File "/Users/bhushanchowdary/.pyenv/versions/3.10.12/lib/python3.10/concurrent/futures/_base.py", line 453, in result
+    self._condition.wait(timeout)
+  File "/Users/bhushanchowdary/.pyenv/versions/3.10.12/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+2025-05-12 16:36:29,633 WARNING MsgRouterThr:14819 [router.py:message_loop():63] [no run ID] message_loop has been closed
+Traceback (most recent call last):
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/interface/router_sock.py", line 27, in _read_message
+    return self._sock_client.read_server_response(timeout=1)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 235, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 220, in _read_packet_bytes
+    raise SockClientClosedError
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 56, in message_loop
+    msg = self._read_message()
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/interface/router_sock.py", line 29, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-05-12 16:36:29,643 INFO    MsgRouterThr:14819 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 3 handles.
+2025-05-12 16:36:47,351 ERROR   MainThread:14819 [wandb_init.py:init():1687] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1677, in init
+    return wi.init(run_settings, run_config, run_printer)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1012, in init
+    backend.interface.publish_header()
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 97, in publish_header
+    self._publish_header(header)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 275, in _publish_header
+    self._publish(rec)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 174, in send_record_publish
+    self.send_server_request(server_req)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-05-12 16:36:57,551 ERROR   MainThread:14819 [wandb_init.py:init():1687] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1677, in init
+    return wi.init(run_settings, run_config, run_printer)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 898, in init
+    service.inform_init(
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 151, in inform_init
+    self._client.send_server_request(spb.ServerRequest(inform_init=request))
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-05-12 16:37:28,526 ERROR   MainThread:14819 [wandb_init.py:init():1687] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1677, in init
+    return wi.init(run_settings, run_config, run_printer)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 898, in init
+    service.inform_init(
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 151, in inform_init
+    self._client.send_server_request(spb.ServerRequest(inform_init=request))
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/model_deployment/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe

@@ -1,0 +1,18 @@
+{"time":"2025-05-12T17:22:17.862646-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/ML_cycle/wandb/run-20250512_172217-nq19e24x/logs/debug-core.log"}
+{"time":"2025-05-12T17:22:18.118772-04:00","level":"INFO","msg":"created new stream","id":"nq19e24x"}
+{"time":"2025-05-12T17:22:18.118799-04:00","level":"INFO","msg":"stream: started","id":"nq19e24x"}
+{"time":"2025-05-12T17:22:18.118806-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"nq19e24x"}
+{"time":"2025-05-12T17:22:18.118821-04:00","level":"INFO","msg":"sender: started","stream_id":"nq19e24x"}
+{"time":"2025-05-12T17:22:18.118807-04:00","level":"INFO","msg":"handler: started","stream_id":"nq19e24x"}
+{"time":"2025-05-12T17:22:18.321151-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-12T17:24:18.77348-04:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bhushanmandava16-personal/Energy-Consumption-Pred-101/nq19e24x/file_stream\": read tcp 10.0.0.251:52368->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-12T17:25:19.062205-04:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bhushanmandava16-personal/Energy-Consumption-Pred-101/nq19e24x/file_stream\": read tcp 10.0.0.251:52375->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-12T17:31:47.630105-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-12T17:31:47.63039-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-12T17:31:48.180526-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-12T17:31:48.361357-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-05-12T17:31:48.367472-04:00","level":"INFO","msg":"stream: closing","id":"nq19e24x"}
+{"time":"2025-05-12T17:31:48.367495-04:00","level":"INFO","msg":"handler: closed","stream_id":"nq19e24x"}
+{"time":"2025-05-12T17:31:48.367506-04:00","level":"INFO","msg":"sender: closed","stream_id":"nq19e24x"}
+{"time":"2025-05-12T17:31:48.367505-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nq19e24x"}
+{"time":"2025-05-12T17:31:48.367612-04:00","level":"INFO","msg":"stream: closed","id":"nq19e24x"}

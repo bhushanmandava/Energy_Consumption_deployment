@@ -1,0 +1,11 @@
+name: feature_engineering_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - scikit-learn
+  - mlflow
+  - pip
+  - pip:
+      - wandb

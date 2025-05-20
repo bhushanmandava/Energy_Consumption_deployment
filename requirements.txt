@@ -1,0 +1,13 @@
+fastapi
+pydantic
+prophet
+mlflow
+fastapi
+uvicorn
+pandas
+numpy
+joblib
+wandb
+python-dotenv
+scikit-learn
+# setproctile=1.2 always use this version

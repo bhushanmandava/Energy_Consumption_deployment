@@ -1,0 +1,16 @@
+{"time":"2025-05-12T16:33:17.956867-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/bhushanchowdary/Documents/GitHub/Energy_Consumption_deployment/ML_cycle/wandb/run-20250512_163316-kvqwvafy/logs/debug-core.log"}
+{"time":"2025-05-12T16:33:18.214188-04:00","level":"INFO","msg":"created new stream","id":"kvqwvafy"}
+{"time":"2025-05-12T16:33:18.214235-04:00","level":"INFO","msg":"stream: started","id":"kvqwvafy"}
+{"time":"2025-05-12T16:33:18.214234-04:00","level":"INFO","msg":"handler: started","stream_id":"kvqwvafy"}
+{"time":"2025-05-12T16:33:18.21424-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"kvqwvafy"}
+{"time":"2025-05-12T16:33:18.214251-04:00","level":"INFO","msg":"sender: started","stream_id":"kvqwvafy"}
+{"time":"2025-05-12T16:33:18.468791-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-12T16:34:03.9455-04:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/bhushanmandava16-personal/Energy-Consumption-Pred-101/kvqwvafy/file_stream"}
+{"time":"2025-05-12T16:34:03.94666-04:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/bhushanmandava16-personal/Energy-Consumption-Pred-101/kvqwvafy/file_stream: {\"error\":\"run Energy-Consumption-Pred-101/kvqwvafy not found while streaming file\"}"}
+{"time":"2025-05-12T16:36:05.132296-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-12T16:36:05.132543-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-12T16:36:05.250011-04:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run kvqwvafy was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-05-12T16:36:06.136257-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":1.004732,"error_status":"retrying HTTP 409: run kvqwvafy was previously created and deleted; try a new run name"}],"total_operations":1}}
+{"time":"2025-05-12T16:36:07.808599-04:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run kvqwvafy was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-05-12T16:36:12.197398-04:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run kvqwvafy was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-05-12T16:36:21.505684-04:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run kvqwvafy was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

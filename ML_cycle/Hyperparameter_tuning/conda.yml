@@ -1,0 +1,13 @@
+name: hyperparameter_tuning_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - scikit-learn
+  - prophet
+  - mlflow
+  - pip
+  - pip:
+      - wandb
+      - optuna

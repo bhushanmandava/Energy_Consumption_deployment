@@ -1,0 +1,7 @@
+name: HyperparameterTuningComponent
+
+conda_env: conda.yml
+
+entry_points:
+  main:
+    command: "python hyperparameter_tuning.py"
